@@ -1,0 +1,67 @@
+body,p,ul,li,h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style: none;
+}
+/*1.导航条的设置样式*/
+.navbar{
+    /*background-color: pink;*/
+    padding-top: 3px    ;
+    position: fixed;
+    z-index: 1;
+    background-color: orange;
+}
+.container{
+    width: 80%;
+}
+.textfield{
+    width: 100%;
+}
+/*2.图片*/
+/*3.字体*/
+.container #zi{
+    margin-top: 10px;
+}
+.container #zi .one{
+    color: red;
+    margin-left: -40px;
+}
+.container #zi .two{
+    margin-left: 50px;
+}
+/*第四部分：图片*/
+.container-fluid{
+    display: flex;
+    width: 100%;
+    /*background-color: lightgray;*/
+}
+.container-fluid img{
+    width: 140px;  
+}
+/*第五部分*/
+.main{
+    background-color: white;margin-bottom: 5px;
+    border: 1px solid red;
+}
+.main .xiaomi h2{
+        font-size: 20px;
+        line-height: 25px;
+}
+.main .xiaomi p{
+    font-size: 14px;
+    color: gray;
+    line-height: 25px;
+}
+.main .xiaomi span{
+    color: red;
+}
+
+/*低端样式*/
+a{
+    color: gray;
+}
+a:hover{
+    color: orange;
+}

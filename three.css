@@ -1,0 +1,75 @@
+
+
+/*第三部分*/
+.che{
+    background-color: lightgrey;
+    width: 100%;
+    height: 40px;
+    
+}
+.che .kong{
+    margin-left: 25px;
+    padding: 10px;
+}
+.che span:nth-child(2){
+    color: gray;
+    margin-left: 5px;
+    
+}
+.che span:nth-child(3){
+    border: 1px solid gray;
+    padding: 2px 5px;
+    margin-left: 6px;   
+}
+
+/*第四块*/
+.content{
+    margin-bottom: 10px;font-size: 1.5rem;background-color: white;line-height: 5rem;
+}
+.tupian{
+    display: flex;
+}
+.tupian img{
+        width: 100%;
+}
+.tupian span{
+        margin-left: 2px;
+}
+.tupian span p{
+    margin-top: -30px;
+    color: orange;
+}
+.content .tupian a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*低端样式*/
+a{
+    color: gray;
+}
+a:hover{
+    color: orange;
+}
